@@ -91,12 +91,12 @@ Example:
 git commit -m "ci: push.yml updated for release task"
 ```
 
-- **docs[<module_name>]**: A commit with this tag is applied when there are changes to code documentation.
+- **doc[<module_name>]**: A commit with this tag is applied when there are changes to code documentation.
 
 Example
 
 ```bash
-git commit -m "docs[style]: documentation over styling added"
+git commit -m "doc[style]: documentation over styling added"
 ```
 
 - **refactor[<module_name>]**: A commit with this tag is applied when the refactoring of code is done to the project.
